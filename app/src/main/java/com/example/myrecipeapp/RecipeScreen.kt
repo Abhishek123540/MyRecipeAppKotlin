@@ -36,6 +36,7 @@ fun RecipeScreen(modifier: Modifier = Modifier) {
             }
             else -> {
                 //Display Categories
+                CategoryScreen(categories = viewstate.list)
             }
         }
     }
